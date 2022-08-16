@@ -1,0 +1,23 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+license = "All Rights Reserved"
+[[mods]]
+modId = "myamazingmod"
+version = "${file.jarVersion}"
+displayName = "Myamazingmod"
+authors = "Matthew"
+description = '''
+
+'''
+[[dependencies.myamazingmod]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.myamazingmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,1.20)"
+ordering = "NONE"
+side = "BOTH"
